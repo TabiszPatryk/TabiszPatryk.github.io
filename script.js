@@ -37,8 +37,10 @@ function processData(data) {
                     swedenCount++;
                 }
             });
-            portugalMean.push(portugalSum / portugalCount);
-            swedenMean.push(swedenSum / swedenCount);
+            /*portugalMean.push(portugalSum / portugalCount);
+            swedenMean.push(swedenSum / swedenCount);*/
+            portugalMean.push(100);
+            swedenMean.push(100);
         }
 
         return { portugalMean, swedenMean, headers };
