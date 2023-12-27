@@ -88,6 +88,7 @@ Papa.parse('LabourSlackDifferences.csv', {
                         }
                     },
                     yaxis: {
+                        min: 100,
                         labels: {
                             formatter: function(value) {
                                 return value.toFixed(2); // Round Y-axis values to two decimals
