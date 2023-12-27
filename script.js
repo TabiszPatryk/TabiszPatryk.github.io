@@ -7,8 +7,8 @@ function processData(data) {
 
         var portugalData = [];
         var swedenData = [];
-        var portugalRegions = ['PT11'];
-        var swedenRegions = ['SE11'];
+        var portugalRegions = ['PT11', 'PT15', 'PT16', 'PT17', 'PT18', 'PT20', 'PT30'];
+        var swedenRegions = ['SE11', 'SE12', 'SE21', 'SE22', 'SE23', 'SE31', 'SE32', 'SE33'];
 
         lines.forEach(function(line) {
             var geo = line[0];
